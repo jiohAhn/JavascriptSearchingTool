@@ -31,5 +31,10 @@ namespace SearchTool.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Index(string index) {
+            return View();
+        }
     }
 }
